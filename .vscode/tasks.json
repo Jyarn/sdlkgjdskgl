@@ -1,0 +1,24 @@
+{
+    "tasks": [
+        {
+            "label": "Make",
+            "type":"shell",
+            "command": "make",
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "dedicated",
+                "showReuseMessage": false,
+                "clear": true
+            },
+            "options": {
+                "cwd": "${workspaceFolder}",
+            },
+            "problemMatcher":"$gcc",
+            "group": "build",
+            "promptOnClose": true
+        }
+    ],
+    "version": "2.0.0"
+}
