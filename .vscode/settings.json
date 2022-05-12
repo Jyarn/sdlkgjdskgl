@@ -6,5 +6,8 @@
             "binaryPath": "/home/crest/Dev/Platformer/out.out",
             "binaryArgs": []
         }
-    ]
+    ],
+    "files.associations": {
+        "ncurses.h": "c"
+    }
 }
